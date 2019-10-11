@@ -1,0 +1,31 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-16d29521d50-7c99291d83a4c73c": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL 8+ - ConnsLocation_D",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "connsanalyticsapp.ccszwcozsepe.us-east-1.rds.amazonaws.com",
+				"port": "3307",
+				"database": "ConnsLocation_D",
+				"url": "jdbc:mysql://connsanalyticsapp.ccszwcozsepe.us-east-1.rds.amazonaws.com:3307/ConnsLocation_D",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

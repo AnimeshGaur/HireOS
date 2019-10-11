@@ -3,6 +3,8 @@ package io.agileintelligence.fullstackhateoas_backend.services;
 import io.agileintelligence.fullstackhateoas_backend.domain.Capability;
 import io.agileintelligence.fullstackhateoas_backend.exceptions.CapabilityException;
 import io.agileintelligence.fullstackhateoas_backend.repositories.CapabilityRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -16,6 +18,7 @@ import java.util.Map;
 @Service
 public class CapabilityService {
 
+	@Autowired
     private CapabilityRepository capabilityRepository;
 
     public CapabilityService(CapabilityRepository capabilityRepository) {

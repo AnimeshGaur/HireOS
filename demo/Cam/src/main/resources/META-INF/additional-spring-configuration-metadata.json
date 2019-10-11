@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "aws.dynamodb.region",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.dynamodb.region'"
+  },
+  {
+    "name": "aws.dynamodb.profile",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.dynamodb.profile'"
+  },
+  {
+    "name": "dynamodb.table.master",
+    "type": "java.lang.String",
+    "description": "A description for 'dynamodb.table.master'"
+  },
+  {
+    "name": "dynamodb.table.campaign",
+    "type": "java.lang.String",
+    "description": "A description for 'dynamodb.table.campaign'"
+  },
+  {
+    "name": "dynamodb.table.template",
+    "type": "java.lang.String",
+    "description": "A description for 'dynamodb.table.template'"
+  },
+  {
+    "name": "filter.criteria",
+    "type": "java.lang.String",
+    "description": "A description for 'filter.criteria'"
+  },
+  {
+    "name": "okta.oauth.issuer",
+    "type": "java.lang.String",
+    "description": "A description for 'okta.oauth.issuer'"
+  },
+  {
+    "name": "okta.oauth.clientId",
+    "type": "java.lang.String",
+    "description": "A description for 'okta.oauth.clientId'"
+  },
+  {
+    "name": "search.criteria",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria'"
+  },
+  {
+    "name": "name.node",
+    "type": "java.lang.String",
+    "description": "A description for 'name.node'"
+  }
+]}

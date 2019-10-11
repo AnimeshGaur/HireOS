@@ -1,0 +1,135 @@
+{  
+    "payment-types":[  
+        "Cash",
+        "Debit",
+        "Credit"
+    ],
+    "customer-types":[  
+        {  
+            "code":"SLS",
+            "value":"Sales"
+        },
+        {  
+            "code":"CML",
+            "value":"Commercial"
+        },
+        {  
+            "code":"RTL",
+            "value":"Retired"
+        },
+        {  
+            "code":"EMP",
+            "value":"Employee"
+        },
+        {  
+            "code":"BLD",
+            "value":"Builder"
+        }
+    ],
+    "account-class-types":[
+    	{  
+            "code":13,
+            "value":"Dismissed Bankruptcy"
+        },
+        {  
+            "code":53,
+            "value":"Settlement/Disputes"
+        },
+        {  
+            "code":63,
+            "value":"Attorney Representation"
+        },  
+        {  
+            "code":75,
+            "value":"Legal Judgment"
+        }, 
+        {  
+            "code":76,
+            "value":"Legal In Process"
+        }, 
+		{  
+            "code":77,
+            "value":"Legal in Process - LA"
+        },
+        {  
+            "code":78,
+            "value":"Legal Deceased"
+        },
+        {  
+            "code":79,
+            "value":"Legal Fraud"
+        },
+        {  
+            "code":80,
+            "value":"Dismissed Legal-Reaffirmed Chapter 7"
+        },
+        {  
+            "code":90,
+            "value":"Bankruptcy New Notice Chapter 13"
+        },
+		{  
+            "code":91,
+            "value":"Bankruptcy New Notice Chapter 7"
+        },
+        {  
+            "code":92,
+            "value":"Bankruptcy Unsecured Chapter 13/Discharged Chapter 13"
+        },
+        {  
+            "code":93,
+            "value":"Bankruptcy Unsecured Chapter 7"
+        },
+        {  
+            "code":94,
+            "value":"Bankruptcy Confirmed Paying Chapter 13"
+        },
+		{  
+            "code":95,
+            "value":"Bankruptcy Reaffirmed Chapter 7 Waiting on Discharge"
+        },
+        {  
+            "code":96,
+            "value":"Bankruptcy Discharged 7/Surrender Chapter 13"
+        },
+        {  
+            "code":99,
+            "value":"No Longer Reporting to the Credit Bureaus"
+        }
+    ],
+    "account-status":[  
+        "Active",
+        "Charge Off",
+        "Paid Off"
+    ],
+    "loan-types":[  
+        {  
+            "code":"R",
+            "value":"Revolving"
+        },
+        {  
+            "code":"I",
+            "value":"Installment Loans"
+        },
+        {  
+            "code":"D",
+            "value":"Direct Loans"
+        }
+    ],
+    "suppression-files":[  
+        "Employee",
+        "Thirty Day Delinquent Account",
+        "New Approved/Declined Customers",
+        "State Suppression",
+        "'Do not mail' Customers",
+        "Customers with Store Addresses",
+        "Charged Off Accounts",
+        "Bankrupt Customers",
+        "New Conn's Customer -Sales'",
+        "New Progressive Customers"
+    ],
+    "file-format-path":[{
+    	"source":"\\\\CASS\\CAMPAIGN\\Source\\IN\\",
+    	"suppression":"\\\\CASS\\CAMPAIGN\\Suppression\\IN\\",
+    	"tailaddition":"\\\\CASS\\CAMPAIGN\\Tail Addition\\IN\\"
+    }]
+}

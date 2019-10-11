@@ -1,0 +1,82 @@
+{"properties": [
+  {
+    "name": "dynamodb.table.master",
+    "type": "java.lang.String",
+    "description": "Master table"
+  },
+  {
+    "name": "dynamodb.table.campaign",
+    "type": "java.lang.String",
+    "description": "Campaign MDM table"
+  },
+  {
+    "name": "dynamodb.table.template",
+    "type": "java.lang.String",
+    "description": "Campaign Template table"
+  },
+  {
+    "name": "filter.criteria",
+    "type": "java.lang.String",
+    "description": "Filter criteria for Campaign Output API"
+  },
+  {
+    "name": "search.criteria",
+    "type": "java.lang.String",
+    "description": "Criteria for search API"
+  },
+  {
+    "name": "name.node",
+    "type": "java.lang.String",
+    "description": "Hadoop Name Node"
+  },
+  {
+    "name": "dynamodb.index.uniqueCID-index",
+    "type": "java.lang.String",
+    "description": "Global Secondary Index on Customer MDM table with uniqueCID"
+  },
+  {
+    "name": "dynamodb.index.sortGroup-scheduledDate-index",
+    "type": "java.lang.String",
+    "description": "Global Secondary Index on Campaign MDM table with scheduledDate"
+  },
+  {
+    "name": "hive.table.pcl.customer.good",
+    "type": "java.lang.String",
+    "description": "Hive Good table"
+  },
+  {
+    "name": "dynamodb.table.campaignfiles",
+    "type": "java.lang.String",
+    "description": "Campaign Files table"
+  },
+  {
+    "name": "dynamodb.table.customer",
+    "type": "java.lang.String",
+    "description": "Customer MDM table"
+  },
+  {
+    "name": "dynamodb.index.sortGroup-searchKeyCampaignName-index",
+    "type": "java.lang.String",
+    "description": "Global Secondary Index on Campaign MDM table with seacrhKeyCampaignName"
+  },
+  {
+    "name": "hive.table.cms.dpc",
+    "type": "java.lang.String",
+    "description": "Hive DPC table"
+  },
+  {
+    "name": "hive.connection.url",
+    "type": "java.lang.String",
+    "description": "Hive database connection URL"
+  },
+  {
+    "name": "hive.user",
+    "type": "java.lang.String",
+    "description": "Hive database user ID"
+  },
+  {
+    "name": "hive.password",
+    "type": "java.lang.String",
+    "description": "Hive database password"
+  }
+]}
